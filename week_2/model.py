@@ -1,6 +1,4 @@
-from distutils.log import error
 from typing import List, Tuple
-
 
 class QuadraticModel:
     MEAN_ABSOLUTE_ERROR = 0

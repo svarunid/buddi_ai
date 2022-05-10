@@ -1,6 +1,5 @@
 import numpy as np
 
-
 class LinearModel:
     def __init__(self, x2, x,  y):
         self.x2 = x2
