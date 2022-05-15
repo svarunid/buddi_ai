@@ -1,11 +1,10 @@
 import numpy as np
 
+
 class LinearModel:
     def __init__(self, x2, x,  y):
-        self.x2 = x2
-        self.x = x
-        self.y = y
         self.X = np.array([x2, x, np.ones(61)])
+        self.y = y
 
     def find_beta(self):
         X = self.X
